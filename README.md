@@ -15,7 +15,10 @@
 - Using imagenet trained model 
 - Using CRAFT to read labels and texts on  each products
 
-
+### Results
+<img width="500" alt="teaser" src="./results/frame1.jpg">
+<img width="500" alt="teaser" src="./results/frame2.jpg">
+<img width="500" alt="teaser" src="./results/frame3.jpg">
 
 ### Replication 
 - Use requirement.txt to install dependencies 
@@ -23,10 +26,10 @@
 - Read about CRAFT algorithm if problem arises 
 
 ### Limitations 
-- Difficult to use in realtime videos, as the CRAFT method is slow in CPU 
+- Best suited for single photo, as the CRAFT method is slow in CPU 
  
-
-<img width="1000" alt="teaser" src="./figures/craft_example.gif">
+### Future Work 
+- To create a faster working algorithm than CRAFT
 
 
 
