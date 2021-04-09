@@ -15,6 +15,13 @@
 - Using imagenet trained model 
 - Using CRAFT to read labels and texts on  each products
 
+
+
+### Replication 
+- Use requirement.txt to install dependencies 
+- Also download 'craft_mlt_25k.pth' 
+- Read about CRAFT algorithm if problem arises 
+
 ### Limitations 
 - Difficult to use in realtime videos, as the CRAFT method is slow in CPU 
  
